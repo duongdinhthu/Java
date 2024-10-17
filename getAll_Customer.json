@@ -1,0 +1,16 @@
+[
+  {
+    "customer_id": 1,
+    "first_name": "duong",
+    "last_name": "thu",
+    "email": "thu@gmail.com",
+    "phone": 1231231231
+  },
+  {
+    "customer_id": 2,
+    "first_name": "duong",
+    "last_name": "thu",
+    "email": "thu@gmail.com",
+    "phone": 1231231231
+  }
+]
