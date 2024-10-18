@@ -12,6 +12,7 @@ import java.util.Scanner;
 public class EntityToJSON <T extends Entity<?>>{
     public void writeEmployeeToJson(List<T> entitties,Class entityClass,String method) throws Exception {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        System.out.println(method + "json");
         FileWriter writer = new FileWriter(method+entityClass.getSimpleName() + ".json");
         gson.toJson(entitties, writer);
         writer.close();

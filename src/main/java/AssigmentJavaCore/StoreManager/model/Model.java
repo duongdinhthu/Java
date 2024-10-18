@@ -314,14 +314,16 @@ public class Model<T extends Entity<?>> implements ModelDAO {
                     }
                     System.out.println(newEntity.toString());
                     entityList.add(newEntity);
+                    System.out.println(newEntity.getClass().getMethod("getCustomer_id").invoke(newEntity));
                 }
             }
         }
 
         // Yêu cầu người dùng lưu dữ liệu vào file JSON
         String method = null;
+        Entity entity1 = entityList.get(0);
         try {
-            method = "getId_" + entity.getClass().getMethod("getId").invoke(entity) + "_";
+            method = "getId_" + entity1.getClass().getMethod("getCustomer_id").invoke(entity1) + "_";
         } catch (InvocationTargetException e) {
             throw new RuntimeException(e);
         } catch (NoSuchMethodException e) {
@@ -331,8 +333,9 @@ public class Model<T extends Entity<?>> implements ModelDAO {
         System.out.print("Bạn có muốn lưu dữ liệu vào file json? (y/n): ");
         String confirmation = input.nextLine();
 
+
         if (confirmation.equalsIgnoreCase("y")) {
-            entityToJSON.writeEmployeeToJson(entityList, entity.getClass(), method);
+            entityToJSON.writeEmployeeToJson(entityList, entity.getClass(), method.toString());
         } else {
             System.out.println("Hành động không được thực hiện.");
         }

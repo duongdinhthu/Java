@@ -57,3 +57,6 @@ String Pool chỉ áp dụng với chuỗi literal, không áp dụng cho chuỗ
     Giá trị âm nếu chuỗi gọi phương thức đứng trước chuỗi được so sánh trong từ điển.
     Giá trị dương nếu chuỗi gọi phương thức đứng sau chuỗi được so sánh trong từ điển.
     
+
+
+nối chuỗi thì cần append ( String builder)

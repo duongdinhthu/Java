@@ -7,7 +7,6 @@ public class Main {
         oopCar.setColor("mau den");
         System.out.println(oopCar);
         OopRolroy oopRolroy = new OopRolroy(2);// khoi tao va truyen tham so tuoi xe cho xe Rolroy
-        oopRolroy.setColor("red");
         oopRolroy.setDoor("cua canh chim");
         oopRolroy.setWheel("banh nho 20 cm");
         System.out.println(oopRolroy);// in ra xe Rolroy( lop con )

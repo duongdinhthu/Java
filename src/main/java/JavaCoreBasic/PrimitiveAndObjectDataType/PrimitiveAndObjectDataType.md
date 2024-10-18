@@ -58,3 +58,13 @@ Kiểu object :
 Khi khai báo một biến object mà không khởi tạo, nó sẽ có giá trị mặc định là null
 ví dụ : String name;
 
+Trong Java, các kiểu dữ liệu nguyên thủy (primitive types) không phải là tập con của kiểu dữ liệu Object. Kiểu dữ liệu nguyên thủy (như int, float, char, boolean, v.v.) không kế thừa từ Object. Đây là những kiểu dữ liệu được thiết kế để có hiệu năng cao và sử dụng bộ nhớ ít hơn so với các kiểu đối tượng.
+
+Tuy nhiên, Java cung cấp các lớp wrapper tương ứng với từng kiểu dữ liệu nguyên thủy để có thể tương tác với chúng như các đối tượng. Ví dụ:
+
+int (kiểu nguyên thủy) có lớp Integer (wrapper class).
+boolean có lớp Boolean.
+double có lớp Double.
+Các lớp wrapper này đều kế thừa từ Object. Nhờ đó, khi sử dụng các lớp wrapper, bạn có thể sử dụng các giá trị nguyên thủy như là các đối tượng. Điều này đặc biệt hữu ích trong các trường hợp như làm việc với các Collection (như ArrayList, HashMap), vì các Collection chỉ có thể chứa các đối tượng (không thể chứa các giá trị nguyên thủy).
+
+Tóm lại, kiểu nguyên thủy không phải là tập con của Object, nhưng nhờ các lớp wrapper, ta có thể "đối tượng hóa" chúng khi cần.

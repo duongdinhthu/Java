@@ -4,8 +4,8 @@
 Khi nào sử dụng static:
 
 Khi bạn cần một thuộc tính hoặc phương thức có giá trị chung cho tất cả các đối tượng của lớp. Ví dụ, bạn muốn đếm số đối tượng được tạo ra từ một lớp, hoặc khi bạn có một phương thức không cần phụ thuộc vào trạng thái của đối tượng.
-Các phương thức static không thể truy cập được các biến hoặc phương thức không static (cần phải thông qua đối tượng).
-Truy cập phương thức, thuộc tính static:
+Các phương 
+Truy cập phương thức, thuộc tính static:thức static không thể truy cập được các biến hoặc phương thức không static (cần phải thông qua đối tượng).
 
 Bạn có thể truy cập trực tiếp một phương thức hoặc thuộc tính static thông qua tên lớp mà không cần phải tạo một đối tượng
 

@@ -1,16 +1,37 @@
 [
   {
     "customer_id": 1,
-    "first_name": "duong",
-    "last_name": "thu",
-    "email": "thu@gmail.com",
-    "phone": 1231231231
+    "first_name": "kjdf",
+    "last_name": "jdfnb",
+    "email": "mk@gmail.com",
+    "phone": "1235612312"
   },
   {
     "customer_id": 2,
     "first_name": "duong",
     "last_name": "thu",
     "email": "thu@gmail.com",
-    "phone": 1231231231
+    "phone": "1231231231"
+  },
+  {
+    "customer_id": 4,
+    "first_name": "duong",
+    "last_name": "thu",
+    "email": "thu@gmail.com",
+    "phone": "0981300594"
+  },
+  {
+    "customer_id": 5,
+    "first_name": "thu",
+    "last_name": "duong",
+    "email": "thu@gmail.com",
+    "phone": "0123456789"
+  },
+  {
+    "customer_id": 6,
+    "first_name": "do",
+    "last_name": "thao",
+    "email": "thaodo@gmail.com",
+    "phone": "1234567899"
   }
 ]

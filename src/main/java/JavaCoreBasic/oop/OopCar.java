@@ -2,7 +2,7 @@ package JavaCoreBasic.oop;
 
 public class OopCar {
     // tinh dong goi cua OOP
-    double hight = Double.valueOf("3.2");
+    double hight = 3.2;
     private String color = "mau do"; // chi duoc truy cap o lop hien tai
     public String door = "cua canh buom";// truy cap o bat ki dau
     protected String wheel = "banh xe ban kinh 30 CM"; // truy cap o lop hien tai và trong package
