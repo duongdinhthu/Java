@@ -4,7 +4,6 @@ import AssigmentJavaCore.StoreManager.controller.Controller;
 import AssigmentJavaCore.StoreManager.entity.Customer;
 import AssigmentJavaCore.StoreManager.model.Model;
 
-import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Scanner;

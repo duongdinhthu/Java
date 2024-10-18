@@ -41,4 +41,4 @@
 <last_name>thao</last_name>
 <email>thaodo@gmail.com</email>
 <phone>1234567899</phone>
-</data>
+</data><?xml version="1.0" encoding="UTF-8" standalone="no"?><data><customer_id>1</customer_id><first_name>kjdf</first_name><last_name>jdfnb</last_name><email>mk@gmail.com</email><phone>1235612312</phone></data><?xml version="1.0" encoding="UTF-8" standalone="no"?><data><customer_id>2</customer_id><first_name>duong</first_name><last_name>thu</last_name><email>thu@gmail.com</email><phone>1231231231</phone></data><?xml version="1.0" encoding="UTF-8" standalone="no"?><data><customer_id>4</customer_id><first_name>duong</first_name><last_name>thu</last_name><email>thu@gmail.com</email><phone>0981300594</phone></data><?xml version="1.0" encoding="UTF-8" standalone="no"?><data><customer_id>5</customer_id><first_name>thu</first_name><last_name>duong</last_name><email>thu@gmail.com</email><phone>0123456789</phone></data><?xml version="1.0" encoding="UTF-8" standalone="no"?><data><customer_id>6</customer_id><first_name>do</first_name><last_name>thao</last_name><email>thaodo@gmail.com</email><phone>1234567899</phone></data>

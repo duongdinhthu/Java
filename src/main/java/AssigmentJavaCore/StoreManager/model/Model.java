@@ -1,9 +1,8 @@
 package AssigmentJavaCore.StoreManager.model;
 
-import AssigmentJavaCore.StoreManager.connectDTB.MySqlConnect;
 import AssigmentJavaCore.StoreManager.entity.Entity;
+import AssigmentJavaCore.StoreManager.connectDTB.MySqlConnect;
 
-import java.io.IOException;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.sql.*;

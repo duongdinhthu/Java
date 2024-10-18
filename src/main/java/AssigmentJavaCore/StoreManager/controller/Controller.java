@@ -4,8 +4,6 @@ package AssigmentJavaCore.StoreManager.controller;
 import AssigmentJavaCore.StoreManager.entity.Entity;
 import AssigmentJavaCore.StoreManager.model.Model;
 
-import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
 import java.sql.SQLException;
 import java.util.List;
 

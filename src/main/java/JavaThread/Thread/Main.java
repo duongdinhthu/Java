@@ -1,7 +1,5 @@
 package JavaThread.Thread;
 
-import JavaThread.Thread.MyThread;
-
 public class Main {
     public static void main(String[] args) {
         MyThread thread = new MyThread(); // Tạo đối tượng MyThread
