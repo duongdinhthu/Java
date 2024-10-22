@@ -1,10 +1,15 @@
 1. Đặc điểm của Map Interface:
-   Map Interface trong Java đại diện cho một cấu trúc dữ liệu lưu trữ các cặp khóa-giá trị (key-value pairs), với các đặc điểm sau:
+   Map Interface trong Java đại diện cho một cấu trúc dữ liệu lưu trữ các cặp khóa-giá trị (key-value pairs),
+với các đặc điểm sau:
 
-Không chứa phần tử trùng lặp: Mỗi khóa (key) trong một Map phải là duy nhất. Mỗi khóa chỉ có thể liên kết với một giá trị duy nhất.
-Không đảm bảo thứ tự: Trong hầu hết các triển khai của Map (trừ LinkedHashMap), thứ tự của các cặp khóa-giá trị không được đảm bảo.
-Có thể chứa giá trị null: Một số triển khai của Map (như HashMap) cho phép khóa và giá trị là null, trong khi các triển khai khác (như TreeMap) không cho phép khóa hoặc giá trị là null.
-Tìm kiếm, thêm, xóa nhanh: Các thao tác cơ bản như thêm, lấy, xóa cặp khóa-giá trị thường có độ phức tạp thời gian thấp.
+Không chứa phần tử trùng lặp: Mỗi khóa (key) trong một Map phải là duy nhất. 
+Mỗi khóa chỉ có thể liên kết với một giá trị duy nhất.
+Không đảm bảo thứ tự: Trong hầu hết các triển khai của Map (trừ LinkedHashMap), 
+thứ tự của các cặp khóa-giá trị không được đảm bảo.
+Có thể chứa giá trị null: Một số triển khai của Map (như HashMap) cho phép khóa và giá trị là null, 
+trong khi các triển khai khác (như TreeMap) không cho phép khóa hoặc giá trị là null.
+Tìm kiếm, thêm, xóa nhanh: Các thao tác cơ bản như thêm, lấy, 
+xóa cặp khóa-giá trị thường có độ phức tạp thời gian thấp.
 2. Các class triển khai từ Map Interface:
    HashMap:
 

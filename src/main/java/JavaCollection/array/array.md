@@ -1,6 +1,8 @@
 1. Kiểu Mảng (Array) trong Java:
-   Mảng là một cấu trúc dữ liệu lưu trữ các phần tử có cùng kiểu dữ liệu, với số lượng phần tử được xác định cố định khi khởi tạo.
-   Mảng trong Java là một đối tượng. Khi bạn khai báo một mảng, bạn đang tạo một tham chiếu đến vùng nhớ lưu trữ các phần tử của mảng.
+   Mảng là một cấu trúc dữ liệu lưu trữ các phần tử có cùng kiểu dữ liệu, 
+   với số lượng phần tử được xác định cố định khi khởi tạo.
+   Mảng trong Java là một đối tượng. 
+   Khi bạn khai báo một mảng, bạn đang tạo một tham chiếu đến vùng nhớ lưu trữ các phần tử của mảng.
    Các phần tử của mảng được truy cập thông qua chỉ số (index), bắt đầu từ 0.
 
 
